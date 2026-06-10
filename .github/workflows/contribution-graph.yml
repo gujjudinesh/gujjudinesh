@@ -10,17 +10,20 @@ on:
 
 jobs:
   generate:
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: gujjudinesh
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -34,4 +37,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          force_orphan: true
           commit_message: "Update snake animation [skip ci]"
