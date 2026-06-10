@@ -1,4 +1,4 @@
-name: GitHub Snake Game
+name: Generate Contribution Graphs
 
 on:
   schedule:
@@ -10,6 +10,8 @@ on:
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -17,6 +19,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Step 1: Generate Snake SVG
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
@@ -28,10 +31,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Step 2: Generate Pacman SVG
+      - name: Generate Pacman contribution graph SVG
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      # Step 3: Deploy both to Output Branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          commit_message: "Update snake animation [skip ci]"
+          commit_message: "Update graphs animation [skip ci]"
