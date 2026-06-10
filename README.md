@@ -46,12 +46,12 @@
 
 ---
 
-## 👾 Pacman Contribution Graph
+## 🐍 Snake Contribution Graph
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gujjudinesh/gujjudinesh/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gujjudinesh/gujjudinesh/output/pacman-contribution-graph.svg" />
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/gujjudinesh/gujjudinesh/output/pacman-contribution-graph.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gujjudinesh/gujjudinesh/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gujjudinesh/gujjudinesh/output/github-snake.svg" />
+    <img alt="github contribution grid snake svg" src="https://raw.githubusercontent.com/gujjudinesh/gujjudinesh/output/github-snake.svg" />
   </picture>
 </div>
