@@ -3,7 +3,9 @@ name: GitHub Snake Game
 on:
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
@@ -23,7 +25,7 @@ jobs:
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
-          github_user_name: gujjudinesh
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -37,5 +39,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          force_orphan: true
           commit_message: "Update snake animation [skip ci]"
