@@ -6,6 +6,32 @@ Welcome to my GitHub profile! I'm passionate about software development and open
 
 ---
 
+## 🎮 Ben 10 Omnitrix Theme
+
+<div align="center">
+
+### ⌚ OMNITRIX - Ultimate Developer Mode
+
+```
+    ╔════════════════════════════════════════╗
+    ║                                        ║
+    ║         ◇ ← → ◇  ◇ ← → ◇              ║
+    ║        ╱           ╲                   ║
+    ║       │   OMNITRIX  │                  ║
+    ║        ╲           ╱                   ║
+    ║         ◇ ← → ◇  ◇ ← → ◇              ║
+    ║                                        ║
+    ║    ACTIVATED: Full Stack Developer    ║
+    ║                                        ║
+    ╚════════════════════════════════════════╝
+```
+
+**Ready to Transform Code into Reality!** 💚🔴
+
+</div>
+
+---
+
 ## 📊 Contribution Activity
 
 ### Commit Streak
@@ -30,11 +56,25 @@ Welcome to my GitHub profile! I'm passionate about software development and open
 
 ## 🚀 Skills & Technologies
 
-<!-- Add your key skills here -->
+### MERN Stack Frameworks & Tools
 
-- **Languages:** [Add your languages]
-- **Frameworks & Tools:** [Add your frameworks]
-- **Specializations:** [Add your areas of expertise]
+<div align="center">
+
+| **MongoDB** | **Express.js** | **React.js** | **Node.js** |
+|:---:|:---:|:---:|:---:|
+| 🍃 NoSQL Database | ⚡ Backend Framework | ⚛️ Frontend Library | 🟢 Runtime Environment |
+| Document-Based | Minimalist Web Server | Component-Based UI | JavaScript Runtime |
+| Mongoose ORM | RESTful APIs | State Management | NPM Ecosystem |
+
+</div>
+
+### Additional Technologies
+
+- **Frontend:** React, Redux, Context API, Material-UI, Tailwind CSS, Bootstrap
+- **Backend:** Express.js, Node.js, RESTful APIs, GraphQL, JWT Authentication
+- **Database:** MongoDB, Mongoose, Firebase, SQL
+- **Tools & Platforms:** Git, GitHub, Postman, VS Code, Docker, Heroku, Vercel
+- **Languages:** JavaScript, HTML, CSS, ES6+
 
 ---
 
@@ -48,7 +88,7 @@ Welcome to my GitHub profile! I'm passionate about software development and open
 
 - **GitHub:** [@gujjudinesh](https://github.com/gujjudinesh)
 - **LinkedIn:** [Add your profile]
-- **Email:** [Add your email]
+- **Email:** dineshgujju9562@gmail.com
 
 ---
 
@@ -63,3 +103,5 @@ Welcome to my GitHub profile! I'm passionate about software development and open
 ---
 
 **Thanks for visiting! Feel free to explore my repositories and reach out for collaboration opportunities.**
+
+*"With the power of MERN, I transform ideas into reality!"* 💚⌚
